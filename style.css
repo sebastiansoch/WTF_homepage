@@ -1,0 +1,27 @@
+body {
+  background: ##fefefe;
+}
+
+section {
+    background: #c0c0c025;
+}
+
+header {
+    background: #d5edf7;
+}
+
+footer {
+    background: #d5edf7;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+    color: #1460AA;
+}
+
+h3 {
+    color: royalblue;
+}
