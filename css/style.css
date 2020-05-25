@@ -3,39 +3,43 @@ body {
 }
 
 section {
-    background: #c0c0c025;
-    color: #414141;
+  background: #c0c0c025;
+  color: #414141;
 }
 
-header {
-    background: #d5edf7;
+.header-main {
+  background: #f7d438;
 }
 
-footer {
-    background: #d5edf7;
+.header {
+  background: #d5edf7;
 }
 
-h1 {
+.footer-main {
+  background: #f7d438;
+}
+
+.heading-first {
   color: red;
 }
 
-h2 {
-    color: #1460AA;
+.heading-second {
+  color: #1460aa;
 }
 
-h3 {
-    color: royalblue;
+.heading-third {
+  color: royalblue;
 }
 
 a {
-    color: navy;
+  color: navy;
 }
 
 nav a {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 .social-media-link {
-    font-size: large;
+  font-size: large;
 }
