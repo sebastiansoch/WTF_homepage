@@ -4,6 +4,7 @@ body {
 
 section {
     background: #c0c0c025;
+    color: #414141;
 }
 
 header {
@@ -24,4 +25,17 @@ h2 {
 
 h3 {
     color: royalblue;
+}
+
+a {
+    color: navy;
+}
+
+nav a {
+    color: red;
+    font-weight: bold;
+}
+
+.social-media-link {
+    font-size: large;
 }
