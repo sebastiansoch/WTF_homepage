@@ -1,37 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="html.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="js.html">JS</a>
+        <a href="about-me.html">O mnie</a>
+      </nav>
+    </header>
     <main>
-      <header>
+      <header id="page-top">
         <h1>Sebastian Soch - Strona domowa</h1>
       </header>
       <section>
         <h2>Kim jestem?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla
-          dolor, auctor in metus vitae, interdum imperdiet arcu. Duis tincidunt
-          lorem odio, sed porttitor risus volutpat et. Sed diam mi, scelerisque
-          id egestas nec, dapibus eget leo. Nunc ut diam in libero consectetur
-          posuere ut vitae lorem. Donec id iaculis massa. Sed eu lacus rutrum,
-          lacinia lectus vitae, efficitur nulla. Morbi accumsan elit dolor, eget
-          molestie neque hendrerit id. Nulla convallis nisi a metus eleifend
-          rhoncus. Quisque at nibh consectetur, volutpat odio id, luctus urna.
-          Curabitur fringilla, elit at dignissim efficitur, diam magna aliquam
-          mi, in lacinia quam magna a ante. Integer luctus vulputate faucibus.
-          Etiam quam nisi, tempus vel enim sit amet, sodales egestas mi. Proin
-          ut turpis ut ligula convallis rutrum.
+          <i><b>Lorem ipsum</b></i> dolor sit amet, consectetur adipiscing elit.
+          Donec nulla dolor, auctor in metus vitae, interdum imperdiet arcu.
+          Duis tincidunt lorem odio, sed porttitor risus volutpat et. Sed diam
+          mi, scelerisque id egestas nec, dapibus eget leo. Nunc ut diam in
+          libero consectetur posuere ut vitae lorem. Donec id iaculis massa. Sed
+          eu lacus rutrum, lacinia lectus vitae, efficitur nulla. Morbi accumsan
+          elit dolor, eget molestie neque hendrerit id. Nulla convallis nisi a
+          metus eleifend rhoncus. Quisque at nibh consectetur, volutpat odio id,
+          luctus urna. Curabitur fringilla, elit at dignissim efficitur, diam
+          magna aliquam mi, in lacinia quam magna a ante. Integer luctus
+          vulputate faucibus. Etiam quam nisi, tempus vel enim sit amet, sodales
+          egestas mi. Proin ut turpis ut ligula convallis rutrum.
         </p>
       </section>
       <section>
         <h2>Notatki z WTF</h2>
         <article>
-          <h3>Jak stworzyć prawidłowego HTML'a</h3>
+          <h3>Jak stworzyć <strong>prawidłowego HTML'a</strong></h3>
           <p>
             Cras ac accumsan augue. Vivamus pulvinar placerat ornare. Mauris
             augue augue, cursus a condimentum dictum, congue ut tortor. Sed
@@ -54,9 +63,10 @@
           </p>
         </article>
       </section>
-      <footer>
-        Strona domowa Sebastian Soch, stworzona dla celów szkoleniowych.
-      </footer>
     </main>
+    <footer>
+      Strona domowa Sebastian Soch, stworzona dla celów szkoleniowych.<br />
+      <a href="#page-top">Wróć na górę strony</a>
+    </footer>
   </body>
 </html>
