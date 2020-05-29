@@ -21,6 +21,72 @@
         <h1 class="heading-first">CSS - czyli mój styl</h1>
       </header>
       <img src="resources/css.jpg" alt="Logo CSS" />
+      <section>
+        <h2>CSS - podstawowe informacje</h2>
+        <p>
+          CSS = Cascading Style Sheets - Kaskadowe arkusze stylów<br />
+          CSS Odpowiadają za prezentację treści strony.CSS wpływają na wygląd
+          elementów HTML na ekranie, wydrukach itp
+        </p>
+        <section>
+          <h3>Jak stylować</h3>
+          <section>
+            <h4>Sposoby zapisu styli:</h4>
+          <div>
+            Stylowanie inline -
+            <b>&lt;znacznik style=”color:yellow;”&gt;</b>treść<b
+              >&lt;/znacznik&gt;</b
+            >
+          </div>
+          <div>
+            Stylowanie z użyciem:
+            <ul>
+              <li><b>#id</b> - identyfikator elementu</li>
+              <li><b>.class</b> - klasa</li>
+              <li><b>element</b> - element np.: body, header</li>
+            </ul>
+            <p>
+              Style umieszczone w sekcji &lt;style&gt; w pliku '*.html' (nie
+              zalecane, nie da się tego używąc na tronach mających więcej niż
+              HELLO WORLD :)) lub w osobnym pliku np.: *.css.<br />
+              Definuijemy w sekcji &lt;head&gt;:<br />
+              <b
+                >&lt;link href="style.css" rel="stylesheet" type="text/css"
+                /&gt;</b
+              >
+            </p>
+          </div>
+          </section>
+            <section>
+              <h4>Gramatyka pliku ze stylami</h4>
+              <strong># (hash) - selektor identyfikatora elemantu - id</strong
+              ><br />
+              #name {<br />
+              &nbsp;właściwość: wartość;<br />
+              }<br /><br />
+              <strong>. (kropka) - selektor klasy - class</strong><br />
+              .name {<br />
+              &nbsp;właściwość: wartość;<br />
+              }<br /><br />
+              <strong>(brak "przedrostka") - selektor elementu</strong><br />
+              name {<br />
+              &nbsp;właściwość: wartość;<br />
+              }<br />
+            </section>
+
+        </section>
+        <section>
+          <h3>Specyficzność w CSS</h3>
+          <p>
+            ( &nbsp; &nbsp;&nbsp; _ &nbsp; &nbsp;&nbsp; , &nbsp; &nbsp; &nbsp; _
+            &nbsp; &nbsp;&nbsp;) , &nbsp; &nbsp;&nbsp; _ &nbsp; &nbsp;&nbsp;,
+            &nbsp; &nbsp;_ &nbsp; &nbsp;, &nbsp; &nbsp; _ &nbsp; &nbsp;
+            &nbsp;<br />
+            !important&nbsp;style="" &nbsp; &nbsp;#name &nbsp;.name
+            &nbsp;element
+          </p>
+        </section>
+      </section>
     </main>
     <footer class="footer-main">
       Strona domowa Sebastian Soch, stworzona dla celów szkoleniowych.<br />
