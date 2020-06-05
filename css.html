@@ -9,11 +9,11 @@
   <body>
     <header class="header-main">
       <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="js.html">JS</a>
-        <a href="about-me.html">O mnie</a>
+        <a class="navigation-link" href="index.html">Strona główna</a>
+        <a class="navigation-link" href="html.html">HTML</a>
+        <a class="navigation-link" href="css.html">CSS</a>
+        <a class="navigation-link" href="js.html">JS</a>
+        <a class="navigation-link" href="about-me.html">O mnie</a>
       </nav>
     </header>
     <main>
@@ -23,14 +23,14 @@
       </header>
       <section class="main-section">
         <h2 class="heading-second">CSS - podstawowe informacje</h2>
-        <p>
+        <p class="paragraph">
           CSS = Cascading Style Sheets - Kaskadowe arkusze stylów<br />
           CSS Odpowiadają za prezentację treści strony.CSS wpływają na wygląd
           elementów HTML na ekranie, wydrukach itp
         </p>
         <section class="sub-section">
           <h3 class="heading-third">Jak stylować</h3>
-          <section class="main-section">
+          <section class="sub-section">
             <h4 class="heading-fourth">Sposoby zapisu styli:</h4>
             <div>
               Stylowanie inline -
@@ -40,12 +40,12 @@
             </div>
             <div>
               Stylowanie z użyciem:
-              <ul>
-                <li><b>#id</b> - identyfikator elementu</li>
-                <li><b>.class</b> - klasa</li>
-                <li><b>element</b> - element np.: body, header</li>
+              <ul class="unordered-list">
+                <li class="unordered-list-element"><b>#id</b> - identyfikator elementu</li>
+                <li class="unordered-list-element"><b>.class</b> - klasa</li>
+                <li class="unordered-list-element"><b>element</b> - element np.: body, header</li>
               </ul>
-              <p>
+              <p class="paragraph">
                 Style umieszczone w sekcji &lt;style&gt; w pliku '*.html' (nie
                 zalecane, nie da się tego używąc na tronach mających więcej niż
                 HELLO WORLD :)) lub w osobnym pliku np.: *.css.<br />
@@ -57,7 +57,7 @@
               </p>
             </div>
           </section>
-          <section class="main-section">
+          <section class="sub-section">
             <h4 class="heading-fourth">Gramatyka pliku ze stylami</h4>
             <strong># (hash) - selektor identyfikatora elemantu - id</strong
             ><br />
@@ -74,7 +74,7 @@
             }<br />
           </section>
         </section>
-        <section class="main-section">
+        <section class="sub-section">
           <h3 class="heading-third">Specyficzność w CSS</h3>
           <p class="paragraph">
             ( &nbsp; &nbsp;&nbsp; _ &nbsp; &nbsp;&nbsp; , &nbsp; &nbsp; &nbsp; _
