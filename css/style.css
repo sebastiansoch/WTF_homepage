@@ -3,11 +3,18 @@ body {
 }
 
 section {
-  background: #c0c0c025;
+  background: #ebebeb;
   color: #414141;
 }
 
-.header-main {
+a {
+  color: navy;
+}
+
+.article {
+}
+
+.footer-main {
   background: #f7d438;
 }
 
@@ -15,7 +22,7 @@ section {
   background: #d5edf7;
 }
 
-.footer-main {
+.header-main {
   background: #f7d438;
 }
 
@@ -26,20 +33,37 @@ section {
 .heading-second {
   color: #1460aa;
 }
-
 .heading-third {
   color: royalblue;
 }
 
-a {
-  color: navy;
+.heading-fourth {
 }
 
-nav a {
+.main-section {
+}
+
+.navigation-link {
   color: red;
   font-weight: bold;
+}
+.paragraph {
+  color: #020024;
 }
 
 .social-media-link {
   font-size: large;
+}
+
+.sub-section {
+  background: #c0c0c0;
+  color: #414141;
+}
+
+.unordered-list {
+  
+}
+
+.unordered-list-element {
+  font-style: italic;
 }
